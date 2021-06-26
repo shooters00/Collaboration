@@ -13,14 +13,14 @@ function search(event) {
 
     
     fetch(baseApiUrl + "maps/" + "?q=" + text + specApiUrl, {
-        
+
     })
     .then(function (response) {
         return response.json();
     })
     .then(function (data) {
         console.log(data);
-      });
-}
+      }); */
+} 
 
 searchBtnEl.addEventListener("click", search);
